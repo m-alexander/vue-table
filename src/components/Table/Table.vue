@@ -34,10 +34,6 @@ export default {
 		}
 	},
 
-	mounted() {
-		this.observeResize()
-	},
-
 	methods: {
 		onBodyScroll() {
 			if (this.$refs.body) {
