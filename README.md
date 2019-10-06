@@ -2,6 +2,8 @@
 
 Vue table is a datatable designed to handle thousands of rows of data without sacrificing performance.
 
+[DEMO](https://m-alexander.github.io/vue-table/)
+
 ## Project setup
 ```
 npm install
