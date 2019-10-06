@@ -1,0 +1,33 @@
+.datagrid
+	cursor default
+	user-select none
+	font-size: 12px
+	border: solid 1px #ccc
+	border-radius: 2px
+
+	.datagrid__header
+		font-weight: bold
+		color: #777
+		background: #f7f7f7
+
+		.datagrid__row
+			border-bottom: solid 1px #ccc
+		.datagrid-header-cell__title
+			padding 8px
+		.datagrid-header-cell__grip
+			border-right: solid 1px #ccc
+
+	.datagrid__body
+		.datagrid__row
+			border: dotted 1px transparent
+			background: #fff
+
+			&:hover
+				background #fafafa
+			&--selected,
+			&--selected:hover
+				background #f0f0f0
+				border-color #777
+		.datagrid__cell
+			padding 8px
+
